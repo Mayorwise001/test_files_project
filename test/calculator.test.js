@@ -1,0 +1,20 @@
+const calculator = require('../Js/calculator')
+
+describe('calculator', () =>{
+    test('adding numbers', () =>{
+        expect(calculator(1,"+",1)).toBe(2);
+    });
+
+    test('adding numbers', () => {
+        expect(calculator(1,"-",1)).toBe(0);
+    });
+
+    test('adding numbers', () =>{
+        expect(calculator(1,"*",1)).toBe(1);
+    });
+    test('adding numbers', () =>{
+        expect(calculator(1,"/",1)).toBe(1);
+    });
+
+    test
+})
